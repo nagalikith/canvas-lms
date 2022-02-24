@@ -9,6 +9,7 @@
 # * pretty much any dotfile not already covered (e.g. .rvmrc)
 #
 # That's what .git/info/exclude and core.excludesfile are for :)
+/config/
 .bundle/
 .byebug_history
 .env

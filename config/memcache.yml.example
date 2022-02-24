@@ -1,6 +1,7 @@
 # see also config/cache_store.yml.example
-production:
-
-development:
-
 test:
+  cache_store: redis_store
+development:
+  cache_store: redis_store
+production:
+  cache_store: redis_store
