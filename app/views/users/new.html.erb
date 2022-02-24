@@ -27,7 +27,6 @@
 <div id="main">
   <div id="registration_header">
     <div class="registration-content">
-      <h1><a href="http://www.instructure.com">Instructure</a></h1>
       <a id="registration_login" href="/login">Login</a>
     </div>
   </div>
@@ -47,16 +46,6 @@
         <% end %>
         <a href="#" id="signup_student" class="signup_link" data-template="studentDialog" title="Student Signup">I'm a Student</a>
         <%= link_to_parent_signup(nil) %>
-      </div>
-    </div>
-  </div>
-
-  <div id="registration_footer">
-    <div class="registration-content">
-      <div class="left">&copy; <%= Time.now.year %> <a href="http://www.instructure.com">Instructure</a></div>
-      <div class="right">
-        <span href="#" class="terms_of_service_link" id="terms_of_service_link"></span>
-        <%= link_to t(:privacy_policy, 'Privacy Policy'), privacy_policy_url %>
       </div>
     </div>
   </div>
